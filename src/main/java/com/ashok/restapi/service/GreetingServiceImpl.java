@@ -1,11 +1,10 @@
-package com.ashok.restapi.service.greeting.impl;
+package com.ashok.restapi.service;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.springframework.stereotype.Service;
 
 import com.ashok.restapi.model.Greeting;
-import com.ashok.restapi.service.GreetingService;
 
 @Service
 public class GreetingServiceImpl implements GreetingService{
